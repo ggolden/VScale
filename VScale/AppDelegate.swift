@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  VScale
 //
-//  Created by Glenn R. Golden on 4/9/17.
 //  Copyright © 2017 Glenn R. Golden. All rights reserved.
 //
 

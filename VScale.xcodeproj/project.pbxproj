@@ -7,21 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000FFDE81E9AE34000748EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FFDE61E9AE34000748EB7 /* ViewController.swift */; };
+		000FFDE91E9AE34000748EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000FFDE71E9AE34000748EB7 /* Main.storyboard */; };
+		000FFDF21E9AE36700748EB7 /* dashboard-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FFDEC1E9AE36700748EB7 /* dashboard-2x.png */; };
+		000FFDF31E9AE36700748EB7 /* loop-circular-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FFDED1E9AE36700748EB7 /* loop-circular-2x.png */; };
+		000FFDF41E9AE36700748EB7 /* person-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FFDEE1E9AE36700748EB7 /* person-2x.png */; };
+		000FFDF51E9AE36700748EB7 /* reload-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FFDEF1E9AE36700748EB7 /* reload-2x.png */; };
+		000FFDF61E9AE36700748EB7 /* reload-3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FFDF01E9AE36700748EB7 /* reload-3x.png */; };
+		000FFDF71E9AE36700748EB7 /* sun-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FFDF11E9AE36700748EB7 /* sun-2x.png */; };
 		0058F99B1E9AE16B009F6DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F99A1E9AE16B009F6DEB /* AppDelegate.swift */; };
-		0058F99D1E9AE16B009F6DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058F99C1E9AE16B009F6DEB /* ViewController.swift */; };
-		0058F9A01E9AE16B009F6DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0058F99E1E9AE16B009F6DEB /* Main.storyboard */; };
 		0058F9A21E9AE16B009F6DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0058F9A11E9AE16B009F6DEB /* Assets.xcassets */; };
 		0058F9A51E9AE16B009F6DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0058F9A31E9AE16B009F6DEB /* LaunchScreen.storyboard */; };
+		0058F9B51E9AE217009F6DEB /* VScaleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0058F9B21E9AE1D5009F6DEB /* VScaleFramework.framework */; };
+		0058F9B61E9AE217009F6DEB /* VScaleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0058F9B21E9AE1D5009F6DEB /* VScaleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0058F9B11E9AE1D5009F6DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0058F9AC1E9AE1D5009F6DEB /* VScaleFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00E9ED6C1E9AAC60008A0EED;
+			remoteInfo = VScaleFramework;
+		};
+		0058F9B31E9AE1D5009F6DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0058F9AC1E9AE1D5009F6DEB /* VScaleFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00E9ED751E9AAC60008A0EED;
+			remoteInfo = VScaleFrameworkTests;
+		};
+		0058F9B71E9AE217009F6DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0058F9AC1E9AE1D5009F6DEB /* VScaleFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E9ED6B1E9AAC60008A0EED;
+			remoteInfo = VScaleFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0058F9B91E9AE217009F6DEB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0058F9B61E9AE217009F6DEB /* VScaleFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		000FFDE61E9AE34000748EB7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		000FFDE71E9AE34000748EB7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		000FFDEC1E9AE36700748EB7 /* dashboard-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashboard-2x.png"; sourceTree = "<group>"; };
+		000FFDED1E9AE36700748EB7 /* loop-circular-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loop-circular-2x.png"; sourceTree = "<group>"; };
+		000FFDEE1E9AE36700748EB7 /* person-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person-2x.png"; sourceTree = "<group>"; };
+		000FFDEF1E9AE36700748EB7 /* reload-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload-2x.png"; sourceTree = "<group>"; };
+		000FFDF01E9AE36700748EB7 /* reload-3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload-3x.png"; sourceTree = "<group>"; };
+		000FFDF11E9AE36700748EB7 /* sun-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun-2x.png"; sourceTree = "<group>"; };
 		0058F9971E9AE16B009F6DEB /* VScale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VScale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0058F99A1E9AE16B009F6DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0058F99C1E9AE16B009F6DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0058F99F1E9AE16B009F6DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0058F9A11E9AE16B009F6DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0058F9A41E9AE16B009F6DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0058F9A61E9AE16B009F6DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0058F9AC1E9AE1D5009F6DEB /* VScaleFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VScaleFramework.xcodeproj; path = ../VScaleFramework/VScaleFramework.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,15 +82,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0058F9B51E9AE217009F6DEB /* VScaleFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000FFDEB1E9AE36700748EB7 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				000FFDEC1E9AE36700748EB7 /* dashboard-2x.png */,
+				000FFDED1E9AE36700748EB7 /* loop-circular-2x.png */,
+				000FFDEE1E9AE36700748EB7 /* person-2x.png */,
+				000FFDEF1E9AE36700748EB7 /* reload-2x.png */,
+				000FFDF01E9AE36700748EB7 /* reload-3x.png */,
+				000FFDF11E9AE36700748EB7 /* sun-2x.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		0058F98E1E9AE16B009F6DEB = {
 			isa = PBXGroup;
 			children = (
+				0058F9AC1E9AE1D5009F6DEB /* VScaleFramework.xcodeproj */,
 				0058F9991E9AE16B009F6DEB /* VScale */,
 				0058F9981E9AE16B009F6DEB /* Products */,
 			);
@@ -54,14 +122,24 @@
 		0058F9991E9AE16B009F6DEB /* VScale */ = {
 			isa = PBXGroup;
 			children = (
+				000FFDEB1E9AE36700748EB7 /* assets */,
+				000FFDE61E9AE34000748EB7 /* ViewController.swift */,
+				000FFDE71E9AE34000748EB7 /* Main.storyboard */,
 				0058F99A1E9AE16B009F6DEB /* AppDelegate.swift */,
-				0058F99C1E9AE16B009F6DEB /* ViewController.swift */,
-				0058F99E1E9AE16B009F6DEB /* Main.storyboard */,
 				0058F9A11E9AE16B009F6DEB /* Assets.xcassets */,
 				0058F9A31E9AE16B009F6DEB /* LaunchScreen.storyboard */,
 				0058F9A61E9AE16B009F6DEB /* Info.plist */,
 			);
 			path = VScale;
+			sourceTree = "<group>";
+		};
+		0058F9AD1E9AE1D5009F6DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0058F9B21E9AE1D5009F6DEB /* VScaleFramework.framework */,
+				0058F9B41E9AE1D5009F6DEB /* VScaleFrameworkTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +152,12 @@
 				0058F9931E9AE16B009F6DEB /* Sources */,
 				0058F9941E9AE16B009F6DEB /* Frameworks */,
 				0058F9951E9AE16B009F6DEB /* Resources */,
+				0058F9B91E9AE217009F6DEB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0058F9B81E9AE217009F6DEB /* PBXTargetDependency */,
 			);
 			name = VScale;
 			productName = VScale;
@@ -112,6 +192,12 @@
 			mainGroup = 0058F98E1E9AE16B009F6DEB;
 			productRefGroup = 0058F9981E9AE16B009F6DEB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0058F9AD1E9AE1D5009F6DEB /* Products */;
+					ProjectRef = 0058F9AC1E9AE1D5009F6DEB /* VScaleFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0058F9961E9AE16B009F6DEB /* VScale */,
@@ -119,14 +205,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		0058F9B21E9AE1D5009F6DEB /* VScaleFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VScaleFramework.framework;
+			remoteRef = 0058F9B11E9AE1D5009F6DEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0058F9B41E9AE1D5009F6DEB /* VScaleFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = VScaleFrameworkTests.xctest;
+			remoteRef = 0058F9B31E9AE1D5009F6DEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		0058F9951E9AE16B009F6DEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000FFDF31E9AE36700748EB7 /* loop-circular-2x.png in Resources */,
+				000FFDE91E9AE34000748EB7 /* Main.storyboard in Resources */,
 				0058F9A51E9AE16B009F6DEB /* LaunchScreen.storyboard in Resources */,
+				000FFDF71E9AE36700748EB7 /* sun-2x.png in Resources */,
+				000FFDF21E9AE36700748EB7 /* dashboard-2x.png in Resources */,
+				000FFDF41E9AE36700748EB7 /* person-2x.png in Resources */,
 				0058F9A21E9AE16B009F6DEB /* Assets.xcassets in Resources */,
-				0058F9A01E9AE16B009F6DEB /* Main.storyboard in Resources */,
+				000FFDF51E9AE36700748EB7 /* reload-2x.png in Resources */,
+				000FFDF61E9AE36700748EB7 /* reload-3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +246,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0058F99D1E9AE16B009F6DEB /* ViewController.swift in Sources */,
+				000FFDE81E9AE34000748EB7 /* ViewController.swift in Sources */,
 				0058F99B1E9AE16B009F6DEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		0058F99E1E9AE16B009F6DEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0058F99F1E9AE16B009F6DEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		0058F9B81E9AE217009F6DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VScaleFramework;
+			targetProxy = 0058F9B71E9AE217009F6DEB /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		0058F9A31E9AE16B009F6DEB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,6 +371,7 @@
 		0058F9AA1E9AE16B009F6DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 659J867D6A;
 				INFOPLIST_FILE = VScale/Info.plist;
@@ -275,6 +385,7 @@
 		0058F9AB1E9AE16B009F6DEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 659J867D6A;
 				INFOPLIST_FILE = VScale/Info.plist;
@@ -304,6 +415,7 @@
 				0058F9AB1E9AE16B009F6DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
