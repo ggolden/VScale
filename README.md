@@ -61,3 +61,25 @@ Oh, so very much!  Some of the giant ticket items include:
 * Cloud.  I want a way to run an train operations session that is synchronized on multiple devices, perhaps at multiple locations.  While P2P might be interesting, a server in the cloud might work, to store the layout, store the state of all items, and communicate changes and velocities to all participants.  We could probably use some intercom feature so folks can chat while operating.
 * Cross Device: My proof of concept here would be to setup a layout, run it full screen on Apple TV, control the trains, turnouts, and views on a number of iPhones and Apple Watches either cloud or local-network connected.
 * Multi-User.  Once all this works, we can have modelers upload their layouts into the "Vscale Model Railroading Club", where the public could visit the layout and watch (or initiate) operations.  Clubs could upload a layout and then hold operating sessions, without having to come physically together.
+
+### Screen Shots
+
+* main view
+
+![VScale main view screen shot](https://raw.githubusercontent.com/ggolden/Vscale/master/screen_shots/20170410_main_view.png)
+
+* sky view
+
+![Vscale sky view screen shot](https://raw.githubusercontent.com/ggolden/Vscale/master/screen_shots/20170410_sky_view.png)
+
+* engine view (notice the Avatar, luxo-lamp looking dude)
+
+![Vscale engine view screen shot](https://raw.githubusercontent.com/ggolden/Vscale/master/screen_shots/20170410_engine_view.png)
+
+* at the platform (view from the Avatar)
+
+![Vscale platform view screen shot](https://raw.githubusercontent.com/ggolden/Vscale/master/screen_shots/20170410_platform.png)
+
+* on a siding (view from the Avatar)
+
+![Vscale siding view screen shot](https://raw.githubusercontent.com/ggolden/Vscale/master/screen_shots/20170410_siding.png)
