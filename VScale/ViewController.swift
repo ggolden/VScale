@@ -25,7 +25,7 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
 	
 	let SYYCAM_POS = SCNVector3(x: Float(15).feet/2, y: Float(6).feet, z: Float(10).feet - Float(1).feet)
 	let SYYCAM_ROTATION = SCNVector4(x: 1 , y: 0, z: 0 , w: 0)
-
+	
 	let AVATAR_POS = SCNVector3(x: 20, y: 0, z: Float(5).feet)
 	let AVATAR_HEIGHT: Float = Float(5).feet
 	let AVATAR_HEIGHT_MAX: Float = Float(7).feet
@@ -96,9 +96,6 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
 		// build a layout
 		layout = Layout(inNode: room.bench)
 		
-		// the track plan
-		// 		let path = layout.trackPlan
-		
 		plan1()
 		
 		// lay the track and roadbed (once the track plan is set)
@@ -107,6 +104,14 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
 		// a train
 		let train = Train()
 			.add(EngineBlocky())
+			.add(CabooseBlocky())
+			.add(CabooseBlocky())
+			.add(CabooseBlocky())
+			.add(CabooseBlocky())
+			.add(CabooseBlocky())
+			.add(CabooseBlocky())
+			.add(CabooseBlocky())
+			.add(CabooseBlocky())
 			.add(CabooseBlocky())
 			.add(CabooseBlocky())
 		train.velocity = VELOCITY_START
@@ -191,6 +196,14 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
 		_ = layout.addItem(Platform(), at: Placement(path: layout.trackPlan, distance: 0, offset: -6))
 		_ = layout.addItem(Platform(), at: Placement(path: layout.trackPlan, distance: 0, offset: 6))
 		_ = layout.addItem(Platform(), at: Placement(path: layout.trackPlan, state:[t1.id:1, t3.id: 0], distance: 192, offset: 6))
+		
+		for r in 0 ... 10
+		{
+			for c in 0 ... 10
+			{
+				_ = layout.addItem(Model(model: "monkey.scnassets/monkey"), at: Placement(position: SCNVector3(x: Float(330 + (r*3)), y: 0, z: Float(40 + (c*3)))))
+			}
+		}
 	}
 	
 	func setupFloorAndAxes(scene : SCNScene)
@@ -309,7 +322,7 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
 			
 		case 2:
 			sceneView.pointOfView = avatar.camera
-
+			
 		default:
 			let t = min(sender.selectedSegmentIndex-2, trains.count-1)
 			if let camera = trains[t].first?.camera
